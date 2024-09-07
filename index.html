@@ -3,29 +3,50 @@
 
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.css">
-	<link rel="stylesheet" href="./assets/style.css">
+	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css">
+	<link rel="stylesheet" href="./assets/style.min.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link
 		href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap"
 		rel="stylesheet">
 	<meta charset="UTF-8">
-	<script src="./assets/bootstrap/bootstrap.bundle.js"></script>
+	<script src="./assets/bootstrap/bootstrap.bundle.min.js"></script>
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js"
 		integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-	<script src="./assets/maugallery.js"></script>
-	<script src="./assets/scripts.js"></script>
+	<script src="./assets/maugallery.min.js"></script>
+	<script src="./assets/scripts.min.js"></script>
 	<title>Nina Carducci, Photographe à Bordeaux</title>
 	<meta name="description"
 		content="Voici une présentation de mon travail de photographe et une grille de mes tarifs.">
 	<meta name="keywords"
 		content="photographe, photographie, évènement, edition, traitement, portfolio, portrait, tarifs, Bordeaux">
+	<script type="application/ld+json">
+			{
+			  "@context": "https://schema.org",
+			  "@type": "ProfessionalService",
+			  "name": "Nina Carducci",
+			  "image": "./assets/images/nina.png",
+			  "url": "https://nina-carducci.github.io/",
+			  "priceRange": "50€ - 400€",
+			  "address": {
+				"@type": "PostalAddress",
+				"addressLocality": "Bordeaux",
+				"postalCode": "33200",
+				"streetAddress": "68 Avenue Alsace Lorraine",
+				"addressCountry": "FR"
+			  },
+			  "openingHours": [
+				"Monday-Friday 10:00-19:00"
+			  ],
+			  "telephone": "05 56 67 78 89"
+			}
+			</script>
 </head>
 
 <body>
 	<header class="top-header">
-		<h3 class="name">Nina Carducci</h3>
+		<h1 class="name">Nina Carducci</h1>
 		<nav class="nav">
 			<ul>
 				<li><a href="#about">À propos</a></li>
@@ -72,12 +93,12 @@
 						</picture>
 					</div>
 				</div>
-				<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+				<button class="carousel-control-prev contrast" type="button" data-bs-target="#carouselExampleIndicators"
 					data-bs-slide="prev">
 					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
 					<span class="visually-hidden">Previous</span>
 				</button>
-				<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+				<button class="carousel-control-next contrast" type="button" data-bs-target="#carouselExampleIndicators"
 					data-bs-slide="next">
 					<span class="carousel-control-next-icon" aria-hidden="true"></span>
 					<span class="visually-hidden">Next</span>
@@ -89,10 +110,10 @@
 				<img src="./assets/images/nina_11zon_11zon.webp" alt="picture from Nina Carducci">
 			</div>
 			<div id="about-me">
-				<h3 class="about-me__title">A propos de moi</h3>
-				<h4 class="about-me__introduction">Devenir photographe était pour moi une évidence. Comme si j’y étais
+				<h2 class="about-me__title">A propos de moi</h2>
+				<p class="about-me__introduction">Devenir photographe était pour moi une évidence. Comme si j’y étais
 					prédestiné. Saisir un moment, une émotion, une situation, un endroit, une lumière et les rendre
-					immortels, voilà ce qui me fait vibrer.</h4>
+					immortels, voilà ce qui me fait vibrer.</p>
 				<p>Nous passons notre vie à chercher le bonheur, et lorsque nous y touchons, nous n’avons qu’une envie :
 					le
 					figer au travers de photographies pour le savourer avec les personnes qui sont importantes à nos
@@ -106,31 +127,31 @@
 			</div>
 		</div>
 		<section id="gallery">
-			<h3 class="title">Portfolio</h3>
+			<h2 class="title">Portfolio</h2>
 			<div class="container py-3">
 				<div class="gallery" style="display: none">
 					<img data-gallery-tag="Concert" class="gallery-item" alt="Photo d'un concert depuis la foule"
-						src="./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash_11zon_1_11zon.webp" />
+						src="./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash_1_11zon.webp" />
 					<img data-gallery-tag="Entreprises" class="gallery-item" alt="Portrait d'un homme en costume"
-						src="./assets/images/gallery/entreprise/ali-morshedlou-WMD64tMfc4k-unsplash_11zon_3_11zon.webp" />
+						src="./assets/images/gallery/entreprise/ali-morshedlou-WMD64tMfc4k-unsplash_3_11zon.webp" />
 					<img data-gallery-tag="Entreprises" class="gallery-item" alt="Portrait d'une femme souriante"
-						src="./assets/images/gallery/entreprise/jason-goodman-tHO1_OuKbg0-unsplash_11zon_7_11zon.webp" />
+						src="./assets/images/gallery/entreprise/jason-goodman-tHO1_OuKbg0-unsplash_4_11zon.webp" />
 					<img data-gallery-tag="Mariages" class="gallery-item" alt="Plan sur les mains de mariés"
-						src="./assets/images/gallery/mariage/hannah-busing-RvF2R_qMpRk-unsplash_11zon_5_11zon.webp" />
+						src="./assets/images/gallery/mariage/hannah-busing-RvF2R_qMpRk-unsplash_6_11zon.webp" />
 					<img data-gallery-tag="Portrait" class="gallery-item"
 						alt="Portrait d'un homme éblouit par la lumière du soleil"
-						src="./assets/images/gallery/portraits/ade-tunji-rVkhWWZFAtQ-unsplash_11zon_2_11zon.webp" />
+						src="./assets/images/gallery/portraits/ade-tunji-rVkhWWZFAtQ-unsplash_8_11zon.webp" />
 					<img data-gallery-tag="Mariages" class="gallery-item"
 						alt="Portrait de nouveaux mariés devant un palmier géant"
-						src="./assets/images/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash_11zon_6_11zon.webp" />
+						src="./assets/images/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash_7_11zon.webp" />
 					<img data-gallery-tag="Portrait" class="gallery-item"
 						alt="Portrait d'une jeune femme avec une paire de lunette transparente"
-						src="./assets/images/gallery/portraits/nino-van-prattenburg--443cl1uR_8-unsplash_11zon_9_11zon.webp" />
+						src="./assets/images/gallery/portraits/nino-van-prattenburg--443cl1uR_8-unsplash_9_11zon.webp" />
 					<img data-gallery-tag="Concert" class="gallery-item"
 						alt="Photo d'un artiste sur scène durant un concert"
-						src="./assets/images/gallery/concerts/austin-neill-hgO1wFPXl3I-unsplash_11zon_4_11zon.webp" />
+						src="./assets/images/gallery/concerts/austin-neill-hgO1wFPXl3I-unsplash_2_11zon.webp" />
 					<img data-gallery-tag="Entreprises" class="gallery-item" alt="Photo d'une femme au bureau rigolant"
-						src="./assets/images/gallery/entreprise/mateus-campos-felipe-Fsgzm8N0hIY-unsplash_11zon_8_11zon.webp" />
+						src="./assets/images/gallery/entreprise/mateus-campos-felipe-Fsgzm8N0hIY-unsplash_5_11zon.webp" />
 				</div>
 			</div>
 			<div class="quote">

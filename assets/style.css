@@ -20,6 +20,10 @@ body {
 	align-items: center;
 }
 
+.contrast {
+	color: #404040;
+}
+
 .top-header .name {
 	font-size: 26px;
 }
@@ -113,11 +117,11 @@ body {
 .nav-pills .show>.nav-link {
 	color: #fff;
 	background-color: #807732;
-	border-radius: 0;
 }
 
 .nav-pills .nav-link {
-	color: #000
+	color: black;
+	cursor: pointer;
 }
 
 .item-column {
